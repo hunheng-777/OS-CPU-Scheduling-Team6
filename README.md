@@ -104,9 +104,9 @@ Gantt Chart:
 | P1 | P2 | P4 | P3 |
 0    8   12  17  26
 
-Average Waiting Time    : [fill after app done]
-Average Turnaround Time : [fill after app done]
-Average Response Time   : [fill after app done]
+Average Waiting Time    : 7.75
+Average Turnaround Time : 14.25
+Average Response Time   : 7.75
 
 ---
 
