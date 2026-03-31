@@ -112,9 +112,9 @@ Average Response Time   : 7.75
 
 ## Screenshots
 
-![Simulator Screenshot](screenshots/simulator.png)
-![FCFS Gantt Chart](screenshots/fcfs.png)
-![MLFQ Gantt Chart](screenshots/mlfq.png)
+![Simulator Screenshot](pictures/SIMULATOR.png)
+![FCFS Gantt Chart](pictures/FCFS.png)
+![SFJ Gantt Chart](pictures/SJF.png)
 
 ---
 
