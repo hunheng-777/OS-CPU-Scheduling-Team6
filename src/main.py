@@ -231,17 +231,15 @@ def main():
 
         if algo == "1":
             print("  Algorithm: FCFS\n" + DIVIDER)
-            # gantt, results = run_fcfs(processes)
-            # print_gantt_chart(gantt)
-            # summary["FCFS"] = print_metrics(results, "FCFS")
-            print("  FCFS coming soon (Person 1).")
+            gantt, results = run_fcfs(processes)
+            print_gantt_chart(gantt)
+            summary["FCFS"] = print_metrics(results, "FCFS")
 
         elif algo == "2":
             print("  Algorithm: SJF\n" + DIVIDER)
-            # gantt, results = run_sjf(processes)
-            # print_gantt_chart(gantt)
-            # summary["SJF"] = print_metrics(results, "SJF")
-            print("  SJF coming soon (Person 1).")
+            gantt, results = run_sjf(processes)
+            print_gantt_chart(gantt)
+            summary["SJF"] = print_metrics(results, "SJF")
 
         elif algo == "3":
             print("  Algorithm: SRT\n" + DIVIDER)
@@ -257,7 +255,11 @@ def main():
 
         elif algo == "5":
             print("  Algorithm: MLFQ\n" + DIVIDER)
-            # gantt, results = run_mlfq(processes, quantum)
-            # print_gantt_chart(gantt)
-            # summary["MLFQ"] = print_metrics(results, "MLFQ")
-            print("  MLFQ coming soon (Person 3).")
+            gantt, results = run_mlfq(processes, quantum)
+            print_gantt_chart(gantt)
+            summary["MLFQ"] = print_metrics(results, "MLFQ")
+
+
+# Add this at the bottom of the file
+if __name__ == "__main__":
+    main()
