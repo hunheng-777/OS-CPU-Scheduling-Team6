@@ -5,8 +5,8 @@
 | Sary Farit      | IDTB110195 | SRT, Round Robin |
 |Oun Vireak       | IDTB110208 | MLFQ |
 
-- **Git Repository:** [paste your repo URL here]
-- **Video Presentation:** [paste your YouTube URL here]
+- **Git Repository:** [OS-CPU-Scheduling-Team6](https://github.com/hunheng-777/OS-CPU-Scheduling-Team6)
+- **Video Presentation:** [Watch the Demo on YouTube](https://www.youtube.com/watch?v=CX2Rsqy_ztk)
 
 ---
 
